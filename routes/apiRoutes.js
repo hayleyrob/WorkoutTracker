@@ -8,12 +8,7 @@ router.get('/workouts', (req, res) => {
     .then((workout) => res.json(workout))
     .catch(err => console.error(err))
 })
-// //GET one exercise
-// router.get('/workouts/:id', (req, res) => {
-//     Workout.findById(req.params.id)
-//         .then((workout) => res.json(workout))
-//         .catch(err => console.error(err))
-// })
+
 //PUT one exercise
 router.put('/workouts/:id', (req, res) => {
   Workout.findByIdAndUpdate(req.params.id, { $push: { exercises: req.body } })

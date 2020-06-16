@@ -1,6 +1,6 @@
 ## workoutTracker
 ## Description
-> Tracks your previous workouts in order to display total distance and total weight. Homepage will show your last workout, along with sums of the total weight lifted, total duration of workout, and total distance. 
+> This app tracks your previous workouts in order to display total distance and total weight. The homepage shows your last workout, along with sums of the total weight lifted, total duration of workout, and total distance. 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)

@@ -15,5 +15,5 @@
 ## Link
 > [Deployed Link](https://guarded-tor-39894.herokuapp.com/ "Heroku App")
 ## Gif
-![gif](/gif/workoutTrackerGif.gif "gif")
+<!-- ![gif](/gif/workoutTrackerGif.gif "gif") -->
 

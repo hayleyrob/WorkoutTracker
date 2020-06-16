@@ -1,5 +1,4 @@
-//bring in dotenv
-require('dotenv').config()
+
 //bring in express and define app
 const express = require('express')
 const { join } = require('path')
@@ -32,7 +31,7 @@ app.get('/', (req, res) => {
 //bring in database connection in config folder
 require('./config')
   //listen for port 3000
-  .then(app.listen(process.env.PORT || 3000, () => {
+  .then(app.listen(3000, () => {
     //console.log below message
     console.log("App running on port 3000!")
   }))

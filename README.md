@@ -1,25 +1,19 @@
-# Unit 17 Nosql Homework: Workout Tracker
-
-This Workout Tracker leverages a Mongo database with a Mongoose schema and handle routes with Express.
-
-## User Story
-
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
-
-## Business Context
-
-A consumer will reach their fitness goals quicker when they track their workout progress.
-
-## Acceptance Criteria
-
-When the user loads the page, they will be given the option to create a new workout, or continue with their last workout.
-
-The user is be able to:
-
-  * Add exercises to a previous workout plan.
-
-  * Add new exercises to a new workout plan.
-
-  * View multiple the combined weight of multiple exercises on the `stats` page.
-
+## workoutTracker
+## Description
+> Tracks your previous workouts in order to display total distance and total weight. Homepage will show your last workout, along with sums of the total weight lifted, total duration of workout, and total distance. 
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Link](#link)
+* [Gif](#gif)
+## Installation
+#### Please follow this command to install npm dependencies:
+> npm init -y
+> npm i
+## Usage
+> This application as stated above will help the user to track their workouts and various types of exercise. The dashboard will display graphs showing the totals of distance, duration, and weight lifted.
+## Link
+> [Deployed Link](https://guarded-tor-39894.herokuapp.com/ "Heroku App")
+## Gif
+![gif](/gif/workoutTrackerGif.gif "gif")
 

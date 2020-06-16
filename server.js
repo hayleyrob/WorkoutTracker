@@ -1,4 +1,5 @@
-
+//bring in dotenv
+require('dotenv').config()
 //bring in express and define app
 const express = require('express')
 const { join } = require('path')
@@ -24,10 +25,7 @@ app.get('/stats', (req, res) => {
 })
 //route to connect * with index.html
 app.get('/', (req, res) => {
-  res.sendFile(join(__dirname,
-    'index.html'
-  ))
-})
+  res.sendFile(join(__dirname + 'index.html' ))})
 //bring in database connection in config folder
 require('./config')
   //listen for port 3000

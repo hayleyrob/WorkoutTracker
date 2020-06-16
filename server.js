@@ -27,11 +27,13 @@ app.get('/stats', (req, res) => {
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname + 'index.html' ))})
 //bring in database connection in config folder
-require('./config')
+require("./config")
   //listen for port 3000
-  .then(app.listen(3000, () => {
-    //console.log below message
-    console.log("App running on port 3000!")
-  }))
+  .then(
+    app.listen(process.env.PORT || 3000, () => {
+      //console.log below message
+      console.log("App running on port 3000!");
+    })
+  )
   //catch any errors
-  .catch(err => console.error(err))
+  .catch((err) => console.error(err));

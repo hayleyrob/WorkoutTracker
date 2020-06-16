@@ -5,7 +5,7 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Link](#link)
-* [Gif](#gif)
+<!-- * [Gif](#gif) -->
 ## Installation
 #### Please follow this command to install npm dependencies:
 > npm init -y

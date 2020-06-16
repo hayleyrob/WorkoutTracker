@@ -14,6 +14,6 @@
 > This application as stated above will help the user to track their workouts and various types of exercise. The dashboard will display graphs showing the totals of distance, duration, and weight lifted.
 ## Link
 > [Deployed Link](https://guarded-tor-39894.herokuapp.com/ "Heroku App")
-## Gif
+<!-- ## Gif -->
 <!-- ![gif](/gif/workoutTrackerGif.gif "gif") -->
 
